@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     gap: 2rem;
     border: 2px solid;
-    height: 100vh;
+    min-height: 50vh;
     padding: 142.5px 1.5rem;
     background-image: url(assets/background-pattern-mobile.svg), linear-gradient(var(--light-pink) 25%, var(--light-pink) 100%);
     background-repeat: no-repeat;
@@ -25,7 +25,6 @@ body {
 main {
     border-radius: 8px;
     background-color: var(--white);
-    height: 90%;
     padding: 1.5rem;
 }
 
