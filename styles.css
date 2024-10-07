@@ -18,10 +18,8 @@ body {
     border: 2px solid;
     height: 100vh;
     padding: 142.5px 1.5rem;
-    background: linear-gradient(var(--dark-purple) 0%,
-            var(--dark-purple) 25%,
-            var(--light-pink) 25%,
-            var(--light-pink) 100%);
+    background-image: url(assets/background-pattern-mobile.svg), linear-gradient(var(--light-pink) 25%, var(--light-pink) 100%);
+    background-repeat: no-repeat;
 }
 
 main {
