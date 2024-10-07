@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid;
+    height: 100vh;
+    padding: 142.5px 1.5rem;
+    background: linear-gradient(var(--dark-purple) 0%,
+            var(--dark-purple) 25%,
+            var(--light-pink) 25%,
+            var(--light-pink) 100%);
+}
+
+main {
+    border-radius: 8px;
+    background-color: var(--white);
+    height: 90%;
+}
