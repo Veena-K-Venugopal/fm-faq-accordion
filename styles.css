@@ -26,4 +26,49 @@ main {
     border-radius: 8px;
     background-color: var(--white);
     height: 90%;
+    padding: 1.5rem;
+}
+
+h1,
+h2 {
+    color: var(--dark-purple);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+p {
+    color: var(--grayish-purple);
+    font-size: 0.875rem;
+}
+
+header {
+    display: flex;
+    gap: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+}
+
+.section-svg {
+    margin-left: auto;
+}
+
+section p {
+    margin-top: 1.5rem;
 }
