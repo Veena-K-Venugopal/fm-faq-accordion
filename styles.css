@@ -50,12 +50,23 @@ p {
 }
 
 header {
-    display: flex;
+    display: inherit;
+    align-items: center;
     gap: 1rem;
 }
 
+.header-svg {
+    display: inherit;
+    max-width: 1.5rem;
+    max-width: 1.5rem;
+}
+
+header svg {
+    width: 100%;
+}
+
 main {
-    display: flex;
+    display: inherit;
     flex-direction: column;
     gap: 1.25rem;
 }
