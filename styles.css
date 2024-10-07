@@ -15,10 +15,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    min-height: 70vh;
+    min-height: 80vh;
     padding: 142.5px 1.5rem;
     background-image: url(assets/background-pattern-mobile.svg), linear-gradient(var(--light-pink) 25%, var(--light-pink) 100%);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 main {
@@ -84,4 +84,16 @@ section p {
 
 hr {
     border: 1px solid var(--light-pink);
+}
+
+@media screen and (min-width: 550px) {
+
+    body {
+        background-image: url(assets/background-pattern-desktop.svg), linear-gradient(var(--light-pink) 25%, var(--light-pink) 100%);
+    }
+
+    main {
+        max-width: 550px;
+        margin: auto;
+    }
 }
