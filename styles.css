@@ -74,6 +74,13 @@ main {
     align-items: center;
 }
 
+/* Active state */
+
+.section-head h2:hover {
+    color: #AD28EB;
+    cursor: pointer;
+}
+
 .section-svg {
     margin-left: auto;
 }
@@ -81,6 +88,8 @@ main {
 section p {
     margin-top: 1.5rem;
 }
+
+/* For horizontal line break */
 
 hr {
     border: 1px solid var(--light-pink);
