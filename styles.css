@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    border: 2px solid;
     min-height: 70vh;
     padding: 142.5px 1.5rem;
     background-image: url(assets/background-pattern-mobile.svg), linear-gradient(var(--light-pink) 25%, var(--light-pink) 100%);
@@ -81,4 +80,8 @@ main {
 
 section p {
     margin-top: 1.5rem;
+}
+
+hr {
+    border: 1px solid var(--light-pink);
 }
